@@ -1,4 +1,4 @@
-#def prime?(num)
+def prime?(num)
   if num < 0 or num == 0 or num == 1
     return false
   else
@@ -6,4 +6,4 @@
       num % possible_factor != 0
     end
   end
-end Add  code here!
+end 
